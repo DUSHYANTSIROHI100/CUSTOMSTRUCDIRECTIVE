@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'customstructuraldirective';
+  title = 'HostListner';
+
+  active: boolean=false;
+
+
+  display: boolean=false;
+
+  DisplayNotice(){
+    this.display=true;
+  }
 }
